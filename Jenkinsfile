@@ -4,7 +4,7 @@ node {
     } 
  
     stage('Build image') { 
-       dockerImage = docker.build("Ducaster/node-front:1.0") 
+       dockerImage = docker.build("ducaster/node-front:1.0") 
     } 
  
  stage('Push image') { 
