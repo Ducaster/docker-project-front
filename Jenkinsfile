@@ -1,6 +1,6 @@
 node { 
     stage('Clone repository') { 
-        git credentialsId: 'github-access', url: 'https://github.com/Ducaster/rolling-paper.git' 
+        git credentialsId: 'github-access', url: 'https://github.com/Ducaster/docker-projectfront.git' 
     } 
  
     stage('Build image') { 
